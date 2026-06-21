@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="DINESH" content="width=device-width, initial-scale=1.0" />
+    <title>DINESH PROTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">DINESH<span>Portfolio.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="fade-in">
+                Hi, I'm <span class="highlight">DINESH</span>
+            </h1>
+            <p class="fade-in delay">
+                Full-Stack Developer crafting high-performance web experiences.
+            </p>
+            <div class="hero-buttons fade-in delay-2">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-glow"></div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My Tech Stack</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i> <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i> <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i> <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-react"></i> <span>React.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-node-js"></i> <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i> <span>MongoDB / SQL</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid" id="projects-grid"></div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="Name" required placeholder=" " />
+                    <label for="name">your name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required placeholder=" " />
+                    <label for="email">Your email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" required placeholder=" "></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">
+            <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+          </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://github.com/dinesh-cse-200"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dinesh-m-ba462932a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twittehttpsr"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
